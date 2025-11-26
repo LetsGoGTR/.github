@@ -5,7 +5,7 @@
 ## 프로젝트 정보
 
 - **팀 구성**: 6인 팀
-- **개발 기간**: 약 1개월
+- **개발 기간**: 2025.10.10 - 2025.11.20 (42일)
 - **기술 스택**: C++ (Qt6, Drogon, Socket), Svelte
 
 ## 프로젝트 개요
@@ -165,8 +165,8 @@ API, SFTP 통신용 제어기 서버 프로그램입니다.
 
 ## 레포지토리
 
-- **Qt**: [RoboEditor-Qt](https://github.com/LetsGoGTR/roboeditor/tree/main/RoboEditor)
-- **Web Frontend**: [RoboEditor-Frontend](https://github.com/LetsGoGTR/tree/main/Svelte)
-- **Web Backend**: [RoboEditor-Backend](https://github.com/LetsGoGTR/tree/main/Drogon)
+- **Qt**: [RoboEditor-Qt](https://github.com/LetsGoGTR/RoboEditor/tree/master/RoboEditor)
+- **Web Frontend**: [RoboEditor-Frontend](https://github.com/LetsGoGTR/RoboEditor/tree/master/Svelte)
+- **Web Backend**: [RoboEditor-Backend](https://github.com/LetsGoGTR/RoboEditor/tree/master/Drogon)
 - **제어기 서버 프로그램**: [Workspace-Controller](https://github.com/LetsGoGTR/workspace-controller)
 - **제어기 서버 프로그램 (Drogon 버전)**: [Workspace-Controller-Drogon](https://github.com/LetsGoGTR/workspace-controller-drogon)
