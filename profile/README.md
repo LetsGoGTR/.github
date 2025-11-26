@@ -27,15 +27,15 @@ RoboEditor는 삼성전자 생산기술연구소와의 기업연계 프로젝트
 - **Python 코드 구문 분석**: tree-sitter-python을 활용한 AST(추상 구문 트리) 기반 비교
 - **변경점 하이라이팅**: 실제로 변경된 부분만 시각적으로 강조 표시
 
-**YAML 형식 정규화 예시:**
+### **YAML 형식 정규화 예시:**
 
-# 작업자 A (인라인 표기)
+#### Yaml A (인라인 표기)
 ```yaml
 list: [apple, banana, cherry]
 map: {name: John, age: 30}
 ```
 
-# 작업자 B (블록 표기)
+#### Yaml B (블록 표기)
 ```yaml
 list:
   - apple
@@ -46,7 +46,7 @@ map:
   age: 30
 ```
 
-# 결과: 동일한 데이터로 인식 → 변경 없음으로 판정
+#### 결과: 동일한 데이터로 인식 → 변경 없음으로 판정
 
 #### 2. 안전한 백업 및 복원 (GUI 기반 자동화)
 
@@ -74,10 +74,6 @@ SFTP 기반 자동화된 파일 전송으로 보안과 효율성을 동시에 �
 ---
 
 ## 아키텍처
-
-### 전체 구조도
-
-![structure](images/structure.png)
 
 ### Qt 버전
 ![qt](images/qt.png)
@@ -158,11 +154,11 @@ API, SFTP 통신용 제어기 서버 프로그램입니다.
 
 | 이름 | 담당 |
 |------|---------|
-| **양재호** | Qt UI 및 로직 개발 |
+| **양재호** | Qt UI 및 로직 개발 **\*팀장** |
 | **유환성** | Qt UI 및 SFTP 통신 개발 |
-| **손준호** | Qt UI 부분 및 Web Frontend 개발 |
-| **성기원** | Python, 폴더 비교 기능 및 Web Frontend 개발 |
-| **임혜성** | YAML 비교 기능 및 Infra 담당 |
+| **손준호** | Qt UI 및 Web Frontend 개발 |
+| **성기원** | 비교 기능 (Python, 폴더) 및 Web Frontend 개발 |
+| **임혜성** | 비교 기능 (Yaml) 및 Infra 담당 |
 | **김건우** | 제어기 서버 프로그램 및 Web Backend 개발 |
 
 ---
